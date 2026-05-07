@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+
+<body>
+
+    <div class="top">
+
+        <h1>Your Movie Recommendations 🎬</h1>
+
+        <p>Curated specially for your mood.</p>
+
+    </div>
+
+    <div id="results">
+
+        <h2>Loading recommendations...</h2>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='results.js') }}"></script>
+
+</body>
+
+</html>
