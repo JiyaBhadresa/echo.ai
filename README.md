@@ -10,18 +10,18 @@ JavaScript
 
 # Features
 
-Mood-based movie recommendations 
-AI-generated personalized suggestions
-Movie posters, ratings, plot & cast details
-Premium dark-themed UI
-Fast and responsive frontend
-etches real movie data from OMDb API
+-Mood-based movie recommendations 
+-AI-generated personalized suggestions
+-Movie posters, ratings, plot & cast details
+-Premium dark-themed UI
+-Fast and responsive frontend
+- Fetches real movie data from OMDb API
 
 #Landing Page
 
-Premium dark luxury UI
-Smooth scrolling interface
-Interactive recommendation form
+-Premium dark luxury UI
+-Smooth scrolling interface
+-Interactive recommendation form
 
 #Recommendation Cards
 Each recommendation displays:
