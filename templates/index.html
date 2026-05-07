@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo.AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <div class="overlay">
+
+            <h1>ECHO.AI</h1>
+
+            <p>
+                Your AI-powered curator for every vibe.<br>
+                Matching the movie to your mood
+            </p>
+
+            <button onclick="scrollToForm()">
+                Get Started
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="form-section" id="formSection">
+
+        <div class="form-box">
+
+            <h2>Find Your Movie Match</h2>
+
+            <input type="text" id="mood" placeholder="Mood (happy, sad, relaxed...)">
+
+            <input type="text" id="people" placeholder="Watching with(alone, friends, partner..)">
+
+            <input type="text" id="genre" placeholder="Genre">
+
+            <input type="text" id="era" placeholder="Movie Era(new, 2020s, 2010s, 90s)">
+
+            <input type="text" id="industry" placeholder="Hollywood or Bollywood">
+
+            <button onclick="getRecommendations()">
+                Recommend Movies
+            </button>
+
+        </div>
+
+        <div id="results"></div>
+
+    </section>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
