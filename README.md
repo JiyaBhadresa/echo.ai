@@ -9,12 +9,12 @@ HTML, CSS
 JavaScript
 
 # Features
-Mood-based movie recommendations
-AI-generated personalized suggestions
-Movie posters, ratings, plot & cast details
-Premium dark-themed UI
-Fast and responsive frontend
-Fetches real movie data from OMDb API
+-  Mood-based movie recommendations
+- AI-generated personalized suggestions
+- Movie posters, ratings, plot & cast details
+- Premium dark-themed UI
+- Fast and responsive frontend
+-  Fetches real movie data from OMDb API
 
 
 #Landing Page
