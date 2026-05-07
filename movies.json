@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Past Lives",
+    "year": "2023",
+    "rating": "7.8",
+    "genre": "Drama, Romance",
+    "plot": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
+    "actors": "Greta Lee, Teo Yoo, John Magaro",
+    "director": "Celine Song",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjQyMTNhNjUtN2VmYy00NWRhLTkwOTctMGVmNTBmNDIxYjZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+  },
+  {
+    "title": "All of Us Strangers",
+    "year": "2023",
+    "rating": "7.6",
+    "genre": "Drama, Romance",
+    "plot": "A screenwriter drawn back to his childhood home enters into a fledgling relationship with his downstairs neighbor while discovering a mysterious new way to heal from losing his parents 30 years ago.",
+    "actors": "Andrew Scott, Paul Mescal, Carter John Grout",
+    "director": "Andrew Haigh",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDU2ZjBlOTUtMTIzMC00OWI0LTg2OTAtZmUxYTE2MzdhNzZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+  },
+  {
+    "title": "Bones and All",
+    "year": "2022",
+    "rating": "6.8",
+    "genre": "Drama, Horror, Romance",
+    "plot": "A young woman embarks on a 1000 mile odyssey through America where she meets a disenfranchised drifter. But all roads lead back to their terrifying pasts and to a final stand that will determine whether love can survive their othe...",
+    "actors": "Timoth\u00e9e Chalamet, Taylor Russell, Mark Rylance",
+    "director": "Luca Guadagnino",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjUzMWU0ZTEtMjlhYy00YWEwLTlhOTktNzNkMTlhNGNiYmRlXkEyXkFqcGc@._V1_SX300.jpg"
+  },
+  {
+    "title": "Aftersun",
+    "year": "2022",
+    "rating": "7.6",
+    "genre": "Drama",
+    "plot": "Sophie reflects on the shared joy and private melancholy of a holiday she took with her father twenty years earlier. Memories real and imagined fill the gaps between as she tries to reconcile the father she knew with the man she d...",
+    "actors": "Paul Mescal, Frankie Corio, Celia Rowlson-Hall",
+    "director": "Charlotte Wells",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWU5Y2MyZjQtNGVjYi00ZDRkLTk1MGYtYmNlMzI0MTFmNDU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+  }
+]
