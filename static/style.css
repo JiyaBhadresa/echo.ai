@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #0b0b0b;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+
+.hero {
+    height: 100vh;
+
+    background:
+        linear-gradient(135deg,
+            #0b0b0b,
+            #111111,
+            #1a1405);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay {
+    animation: fadeIn 1.2s ease;
+}
+
+.overlay h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 110px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    color: #f5c542;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 20px rgba(245, 197, 66, 0.35);
+}
+
+.overlay p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #e5e5e5;
+    font-weight: 300;
+}
+
+.overlay button {
+    margin-top: 35px;
+    padding: 16px 45px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #f5c542;
+    color: black;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0px 0px 20px rgba(245, 197, 66, 0.25);
+}
+
+.overlay button:hover {
+    transform: translateY(-3px) scale(1.03);
+    background: #ffd95e;
+}
+
+/* FORM SECTION */
+
+.form-section {
+    width: 100%;
+    padding: 80px 10%;
+}
+
+.form-box {
+    background: #141414;
+    border: 1px solid rgba(245, 197, 66, 0.15);
+
+    border-radius: 25px;
+
+    padding: 45px;
+
+    box-shadow:
+        0px 0px 30px rgba(245, 197, 66, 0.08),
+        0px 0px 60px rgba(0, 0, 0, 0.4);
+}
+
+.form-box h2 {
+    text-align: center;
+
+    color: #f5c542;
+
+    font-size: 42px;
+
+    margin-bottom: 35px;
+
+    font-family: 'Manrope', sans-serif;
+}
+
+input {
+    width: 100%;
+
+    padding: 18px;
+
+    margin: 14px 0;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #222;
+
+    color: white;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border: 1px solid #f5c542;
+    box-shadow: 0px 0px 10px rgba(245, 197, 66, 0.2);
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.form-box button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 18px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #f5c542;
+
+    color: black;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.form-box button:hover {
+    background: #ffd95e;
+    transform: scale(1.01);
+}
+
+/* RESULTS */
+
+#results {
+    margin-top: 60px;
+}
+
+/* LOADING TEXT */
+
+#results h2 {
+    text-align: center;
+
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 38px;
+
+    color: #f5c542;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 40px;
+
+    animation: pulse 1.5s infinite;
+}
+
+/* MOVIE CARD */
+
+.movie-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #181818;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.movie-card img {
+    width: 140px !important;
+    height: 210px !important;
+    max-width: 140px !important;
+    min-width: 140px !important;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+
+    flex-shrink: 0;
+}
+
+.movie-info h3 {
+    color: #f5c542;
+    margin-bottom: 10px;
+}
+
+
+.movie-info p {
+    margin: 8px 0;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f5c542;
+    border-radius: 10px;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+
+    .overlay h1 {
+        font-size: 70px;
+    }
+
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .movie-card {
+        flex-direction: column;
+    }
+
+    .movie-info h3 {
+        font-size: 28px;
+    }
+
+    .form-box h2 {
+        font-size: 30px;
+    }
+}
